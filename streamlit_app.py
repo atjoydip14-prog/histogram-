@@ -2,8 +2,8 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from scipy import stats
 import matplotlib.pyplot as plt
+from scipy import stats
 
 # -------------------------- Config --------------------------
 st.set_page_config(page_title="Distribution Fitter Pro", layout="wide")
@@ -143,3 +143,4 @@ with tab2:
 
 
 st.caption("Built for your class project – good luck!")
+
