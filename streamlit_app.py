@@ -1,3 +1,4 @@
+# streamlit_app.py
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -139,5 +140,6 @@ with tab2:
     else:
         ax2.legend()
         st.pyplot(fig2)
+
 
 st.caption("Built for your class project – good luck!")
